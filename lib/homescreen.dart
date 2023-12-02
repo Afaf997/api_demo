@@ -38,7 +38,9 @@ class _HomescreenState extends State<Homescreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("API_demo"),
+        backgroundColor: Color.fromARGB(255, 12, 39, 61),
+        title: Text("API_demo",style: TextStyle(fontSize: 25),),
+        centerTitle: true,
       ),
       body: ListView.builder(
         itemBuilder: (context, index) {
